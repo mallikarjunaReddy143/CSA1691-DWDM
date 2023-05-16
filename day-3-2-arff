@@ -1,0 +1,12 @@
+@relation items
+@attribute l1{yes,no}
+@attribute l2{yes,no}
+@attribute l3{yes,no}
+@attribute l4{yes,no}
+@attribute l5{yes,no}
+@data
+yes,yes,,yes,no,no
+no,yes,yes,yes,no
+no,no,no,yes,yes
+yes,yes,no,yes,no
+yes,yes,yes,yes,no
