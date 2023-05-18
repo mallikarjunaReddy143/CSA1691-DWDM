@@ -1,0 +1,10 @@
+F_min <- 50000
+F_max <- 100000
+v <- 80000
+data <- c(200,300,400,600,1000)
+min_max_norm <- function(x){(x-F_min)/(F_max-F_min)}
+data_min_max_norm <- min_max_norm(data)
+z_score_norm <- function(x){(x-mean(data))/sd(data)}
+data_z_score_norm <- z_score_norm(data)
+cat("Min-Max normalised data:",data_min_max_norm,"\n")
+cat(“z-score normalised data:”,data_z_score_norm)
