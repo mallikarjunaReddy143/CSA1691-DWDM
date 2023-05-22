@@ -1,0 +1,21 @@
+true_apples <- 9
+true_strawberries <- 10
+correct_apples <- 6
+correct_strawberries <- 8
+misclassified_apples <- 3
+misclassified_strawberries <- 2
+total_identified <- correct_apples + correct_strawberries + misclassified_apples + 
+misclassified_strawberries
+accuracy_apples <- correct_apples / true_apples
+accuracy_strawberries <- correct_strawberries / true_strawberries
+precision_apples <- correct_apples / (correct_apples + misclassified_strawberries)
+precision_strawberries <- correct_strawberries / (correct_strawberries + misclassified_apples)
+recall_apples <- correct_apples / true_apples
+recall_strawberries <- correct_strawberries / true_strawberries
+cat("total identified fruits:", total_identified, "\n")
+cat("accuracy for apples:", round(accuracy_apples, 2), "\n")
+cat("accuracy for strawberries:", round(accuracy_strawberries, 2), "\n")
+cat("precision for apples:", round(precision_apples, 2), "\n")
+cat("precision for strawberries:", round(precision_strawberries, 2), "\n")
+cat("recall for apples:", round(recall_apples, 2), "\n")
+cat("recall for strawberries:", round(recall_strawberries, 2), "\n")
