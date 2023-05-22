@@ -1,0 +1,7 @@
+1.sd and variance:-
+avgspeed=c(78,81,82,74,83,82,77)
+ttime=c(39,37,36,42,35,36,40)
+sd(avgspeed)
+sd(ttime)
+var(avgspeed)
+var(time)
