@@ -1,0 +1,4 @@
+v1=read.csv("C:/Users/shail/Downloads/cancer.csv")
+v2=scatter.smooth(v1$tumour.size)
+v3=boxplot(v1)
+v4=hist(v1$age)
